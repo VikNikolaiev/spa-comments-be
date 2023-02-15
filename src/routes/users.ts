@@ -4,4 +4,3 @@ import * as usersController from '../controllers/users';
 export const usersRouter = Router();
 
 usersRouter.get('/', usersController.getAll);
-//router.get('/:colorId', usersController.getOne);
