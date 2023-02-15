@@ -14,7 +14,7 @@ app.use(cors());
 
 router.get('/', (req, res) => {
     res.json({
-        'hello': '123',
+        'hello': 'Comments SPA Express server',
     })
 })
 
